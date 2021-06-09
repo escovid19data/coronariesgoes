@@ -1,0 +1,23 @@
+____________Guía de los datos en ALL_history.csv___________
+
+___Resumen___
+Contiene el último día de datos recopilados para CoronaRiesgoES.com de casos de infección por covid publicados por portales de transparencia autonómicos.
+Datos relacionados con el archivo ALL_history.csv
+Si tienes dudas contacta con meugeniapescador@gmail.com
+
+___Campos___
+-Municipio-poblacion; Nombre de municipio / Zona básica de salud / Distrito de madrid
+-Fecha ultimo dato; Fecha del dato en cuestión
+-casos_activos; Casos publicados en la fecha. La descripción concreta de los casos está en el campo Mensaje;
+-Tasa;Casos / Población *100.000 habitantes
+-riesgo; Categorización del riesgo según la tasa BAJO(<30)/MODERADO(<100)/ALTO(<=500)/CRÍTICO(>500)
+-Variacion diaria de tasa; Pendiente de la regresión lineal de la última semana de casos, indicando la aproximación de casos al día
+-Tendencia; Categorización de la variación diaria de la tasa Creciente(>0)/Decreciente(<0)/Constante(0)
+-Fuente de datos:; Organismo del que se descargan los datos
+-Link fuente de datos; Link a la página de la que se descargan los datos
+-Mensaje; Descripción de los casos mostrados
+-Nivel; Granularidad geográfica del dato Municipio/Zona básica de salud/ distrito
+-history_available; Indica si existen datos históricos recientes del municipio
+-Alerta; Si está a 1 indica que la variación diaria de la tasa excede 25 en los últimos 3-7 días
+-Población; Población afectada por el número de casos
+-Comunidad; Comunidad autónoma del municipio. La descripción de la fuente de datos se encuentra en -ALL_municipios.csv

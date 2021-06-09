@@ -1,0 +1,14 @@
+____________Guía de los datos en ALL_history.csv___________
+
+___Resumen___
+Contiene el histórico de datos recopilados para CoronaRiesgoES.com de casos de infección por covid publicados por portales de transparencia autonómicos.
+Datos relacionados con el archivo ALL_municipios.csv
+Si tienes dudas contacta con meugeniapescador@gmail.com
+
+___Campos___
+-Municipio-poblacion; Nombre de municipio / Zona básica de salud / Distrito de madrid
+-Fecha ultimo dato; Fecha del dato en cuestión
+-casos; Casos publicados en la fecha. La descripción concreta de los casos está en ALL_municipios.csv
+-Población; Población afectada por el número de casos
+-Tasa; Casos / Población *100.000 habitantes
+-Comunidad; Comunidad autónoma del municipio. La descripción de la fuente de datos se encuentra en ALL_municipios.csv
